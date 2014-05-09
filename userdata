@@ -1,1 +1,8 @@
 touch /tmp/boby.github
+
+HOSTNAME="sandbox3" #Name should not contains special char, only "-"
+# Modification du nom du host avec une variable en dbut de script
+echo ${HOSTNAME} > /etc/hostname
+hostname ${HOSTNAME}
+echo "#Entry added manually after changing the hostname" >> /etc/hosts
+echo "127.0.0.1 ${HOSTNAME}" >> /etc/hosts
