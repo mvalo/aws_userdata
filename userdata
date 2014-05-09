@@ -1,3 +1,5 @@
+#!/bin/bash
+
 touch /tmp/boby.github
 
 LOGIN_USER1="pfs"
