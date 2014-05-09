@@ -23,4 +23,4 @@ echo "#Entry added manually after changing the hostname" >> /etc/hosts
 echo "127.0.0.1 ${HOSTNAME}" >> /etc/hosts
 
 # GitHub files deletion
-rm -rf /tmp/master.zip /tmp/vm_init-master/
+rm -f /tmp/script.sh
