@@ -1,4 +1,1 @@
-# Download and install ECmanaged Agent
-wget http://my.ecmanaged.com/agent/download/linux -O ./ecm_agent_install.sh
-chmod +x ./ecm_agent_install.sh
-./ecm_agent_install.sh
+touch /tmp/boby.github
