@@ -1,6 +1,6 @@
 #!/bin/bash
 
-HOSTNAME="sandbox3" #Name should not contains special char, only "-"
+HOSTNAME="sandbox2" #Name should not contains special char, only "-"
 LOGIN_USER1="pfs"
 SSH_KEY_USER1="ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCOUuzuAFSB+VEzvtCpCJfVc/p/qplLPyd3VSlot/VuRDdd9i71jJT34dDW13SiGG/XQr15ABlZdujdRbb3x1SgD/+smp4rdF6mMNkAIienT2tnYiB0uUO6zTjrZ8ObcaVuUw8csqNoyeisbf9ERwHt1U8dyplv9pkUsRv9oxZzFskfqnKdAb/2NOdedl8K0Fx0OIYmPCiGjmc2AlBQnL6lcAbTlS7zLISk661MVfCL/TLjARQ8GfcMCFV019YtYhwY/WI5JuQ7+lp+o3ByljHS5VjFXr/Qi/XQspO2TaqBRJSQBrWC0Spm7xkdferMtUJa6PiVR1w2FmUPdgIOFJBR pfs-prod"
 
