@@ -20,3 +20,11 @@ node -v
 
 # Installation de forever en module global
 npm -g install forever
+
+## TO DO
+# P.S. 1 : A cela tu peux également ajouter la copie du fichier « switchplus.conf » dans « /etc/init » afin que switchplus puisse être démarrer 
+# sous forme de service sur la machine, par contre sous CentOS, la commande service est :
+# sudo initctl [start/stop] switchplus
+
+# P.S. 2 : Attention dans le fichier « switchplus.conf » et pour les machines de prod, on n’aura peut etre pas besoin de la ligne : « start on started mongodb » puisque 
+# mongodb n’est pas installé sur la même machine… à retirer donc…
