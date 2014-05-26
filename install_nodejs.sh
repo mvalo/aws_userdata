@@ -15,5 +15,8 @@ cd node-v0.10.26
 make
 make install
 
-# Vérification de la version de node en cours
+# Verification de la version de node en cours
 node -v
+
+# Installation de forever en module global
+npm -g install forever
