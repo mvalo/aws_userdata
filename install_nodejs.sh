@@ -6,10 +6,10 @@ yum -y groupinstall "Development Tools"
 # Se placer dans le répertoire de travail
 cd /usr/src
 # Récupération d'une version spécifique node, pour le moment c'est la 0.10.26 mais peut changer...
-wget http://nodejs.org/dist/v0.10.26/node-v0.10.26.tar.gz
+wget http://nodejs.org/dist/v0.10.28/node-v0.10.28.tar.gz
 # Décompression
-tar zxf node-v0.10.26.tar.gz
-cd node-v0.10.26
+tar zxf node-v0.10.28.tar.gz
+cd node-v0.10.28
 # Configuration + compilation + installation globale sur l'OS
 ./configure
 make
