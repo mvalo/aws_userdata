@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash 
 
 HOSTNAME="sigplus-dev" #Name should not contains special char, only "-"
 LOGIN_USER1="pfs"
